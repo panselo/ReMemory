@@ -16,3 +16,5 @@ TAGLINE: Sei malinconico? Stai diventando vecchio e ti manca la gioventù? riviv
 TIMESTAMP JWT: 1758872776
 
 IMPLEMENTAZIONE: https://re-memory-lane.lovable.app
+
+WBS: <img width="200" height="668" alt="image" src="https://github.com/user-attachments/assets/16f2485b-3ff3-4893-9eb7-5cf9769fd310" />
