@@ -14,3 +14,5 @@ TECNOLOGIE: "realta aumentata (AR) - realta virtuale (VR)"
 TAGLINE: Sei malinconico? Stai diventando vecchio e ti manca la gioventù? rivivi i tuoi vecchi ricordi come se fosse la prima volta tramite la nostra piattaforma.
 
 TIMESTAMP JWT: 1758872776
+
+IMPLEMENTAZIONE: https://re-memory-lane.lovable.app
