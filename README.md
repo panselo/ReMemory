@@ -108,8 +108,6 @@ graph LR
 
 
 
----
-
 # Graph TD:
     A[ReMemory Project] --> B[1.0 ANALISI E REQUISITI]
     A --> C[2.0 SVILUPPO IA E ASSET]
