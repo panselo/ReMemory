@@ -108,7 +108,7 @@ graph LR
 
 
 
-# Graph TD:
+# WBS
     A[ReMemory Project] --> B[1.0 ANALISI E REQUISITI]
     A --> C[2.0 SVILUPPO IA E ASSET]
     A --> D[3.0 INTEGRAZIONE VR/AR]
@@ -132,7 +132,7 @@ graph LR
 
 ---
 
-# Gantt:
+# gantt
     title Cronoprogramma Sviluppo ReMemory
     dateFormat  YYYY-MM-DD
     axisFormat  W%W
