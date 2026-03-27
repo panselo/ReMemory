@@ -82,7 +82,7 @@ Analisi comparativa basata sulle feature chiave di ReMemory rispetto ai leader d
 ---
 
 # Use Case Diagram:
-```mermaid
+
 graph LR
     Visitor((Utente Visitatore))
     User((Utente Registrato))
