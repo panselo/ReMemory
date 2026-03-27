@@ -82,24 +82,26 @@ Analisi comparativa basata sulle feature chiave di ReMemory rispetto ai leader d
 ---
 
 # Use Case Diagram:
+L'utente interagisce con il sistema attraverso diverse fasi: dalla registrazione al collegamento del visore fino alla fruizione dell'esperienza "Rivivi".
 
+```mermaid
 graph LR
-    Visitor((Utente Visitatore))
     User((Utente Registrato))
-    Bank((Sistema Bancario))
+    Visitatore((Utente Visitatore))
     Admin((Amministrazione))
+    Banca((Sistema Bancario))
 
-    Visitor --> Reg(Registrazione)
+    Visitatore --> Reg(Registrazione)
     User --> Login(Login)
     User --> Piano(Gestisci il tuo piano)
-    Bank --> Piano
-    User --> Salva(Salva foto in galleria app)
+    Banca --> Piano
+    User --> Salva(Salva foto su galleria app)
     User --> Visita(Visita catalogo visori)
     Admin --> Visita
     
     Login -.->|include| Link(Collegamento Visore)
-    Link -.->|include| Ins1(Carica da telefono)
-    Link -.->|include| Ins2(Carica da App)
+    Link -.->|include| Ins1(Inserisci foto/video da telefono)
+    Link -.->|include| Ins2(Inserisci foto/video da app)
     Ins1 -.->|include| Rivivi((RIVIVI))
     Ins2 -.->|include| Rivivi
 
