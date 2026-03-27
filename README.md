@@ -26,58 +26,58 @@ Persone malinconiche, chi ha perso qualcuno di caro o chi vorrebbe rivivere viag
 ---
 
 # Tecnologie Utilizzate:
-Frontend Mobile.  
-Intelligenza Artificiale.  
-Realtà Virtuale (VR).  
-Realtà Aumentata (AR).  
-Cloud Storage.  
+- Frontend Mobile (App di gestione)
+- Intelligenza Artificiale (Ricostruzione 3D)
+- Realtà Virtuale (VR) e Aumentata (AR)
+- Cloud Storage (Archivio media)
+- Sistema di pagamenti (Abbonamenti Premium)
 
 ---
 
 # Requisiti – ReMemory
-[![Requisiti](https://img.shields.io/badge/Requisiti-limegreen?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/1xWKr9zPorj-nm3MxhnGaykbhv_UhUK95PsWAqKO3TZ0/edit?usp=sharing)
+[![Requisiti](https://img.shields.io/badge/Requisiti-limegreen?style=for-the-badge&logo=googledocs&logoColor=white)](URL_TUO_DOCUMENTO)
 
 ## <span style="background:#E6F1FB;color:#0C447C;padding:3px 10px;border-radius:6px;font-size:13px;font-weight:500;">Funzionali</span> &nbsp; 
 > Funzionalità offerte agli utenti
 
-- Registrazione di singoli utenti con creazione di un'utenza personale
-- Caricamento di foto, video e messaggi vocali dalla galleria dello smartphone
-- Elaborazione del contenuto tramite AI per la creazione di ambienti 3D
-- Interazione realistica in ambiente VR (parlare, scherzare, muoversi)
-- Visualizzazione del catalogo visori compatibili e collegamento per l'acquisto
-- Gestione della galleria personale per salvare i propri contenuti multimediali
-- Sottoscrizione di abbonamento mensile o annuale (Base o Premium)
-- Accesso a scenari extra (viaggi, eventi storici) per utenti Premium
-- Collegamento tecnico del visore VR alla piattaforma
+- Registrazione di singoli utenti e creazione profilo personale
+- Caricamento di foto, video e messaggi vocali dalla galleria dello smartphone o dell'app
+- Elaborazione tramite AI per la creazione di ambienti 3D realistici
+- Interazione in ambiente VR (parlare, scherzare e muoversi nel ricordo)
+- Visualizzazione catalogo visori VR disponibili e collegamento all'acquisto
+- Salvataggio dei media nella galleria dedicata dell'applicazione
+- Sottoscrizione di abbonamenti mensili o annuali (Base o Premium)
+- Possibilità di rivivere scenari storici e viaggi passati (es. Mykonos) per utenti Premium
+- Collegamento e configurazione tecnica del visore VR
 
 ## <span style="background:#EAF3DE;color:#27500A;padding:3px 10px;border-radius:6px;font-size:13px;font-weight:500;">Non Funzionali</span> &nbsp; 
 > Qualità, performance, usabilità
 
-- **Realismo:** elevata qualità percepita degli ambienti 3D ricostruiti
-- **Usabilità:** interfaccia semplice e intuitiva per utenti di ogni età
-- **Sicurezza:** gestione sicura dei dati personali e dei media caricati
-- **Legalità:** rispetto dei limiti etici e legali nell'interazione virtuale
-- **Affidabilità:** tracciamento preciso dei pagamenti degli abbonamenti
+- **Realismo Percepito:** l'ambiente 3D deve garantire un alto livello di immersione
+- **Limiti Legali:** il sistema deve operare nel rispetto della privacy e delle normative vigenti
+- **Usabilità:** interfaccia intuitiva per utenti di ogni fascia d'età
+- **Affidabilità:** gestione sicura dei pagamenti tramite sistema bancario
 
 ## <span style="background:#EEEDFE;color:#3C3489;padding:3px 10px;border-radius:6px;font-size:13px;font-weight:500;">Di Dominio</span> &nbsp; 
 > Regole e vincoli del contesto
 
-- L'esperienza immersiva è vincolata all'utilizzo di un visore VR
-- La qualità della ricostruzione dipende dai media forniti dall'utente
-- L'accesso ai contenuti di viaggio è limitato al piano Premium
-- Il sistema opera integrando tecnologie VR/AR e Intelligenza Artificiale
+- L'esperienza richiede l'utilizzo di tecnologie VR/AR e Intelligenza Artificiale
+- La fruizione immersiva è vincolata all'uso di un visore VR
+- La creazione di ambienti o l'accesso a contenuti extra è vincolata a un modello di abbonamento
 
 ---
 
 # Competitors:
+Analisi comparativa basata sulle feature chiave di ReMemory rispetto ai leader di mercato:
 
-| Feature | Importance | ReMemory | Meta (Oculus) | Google Photos | Rendever |
+| Feature | Importanza | ReMemory | Oculus (Meta) | Google Photos | Rendever |
 | :--- | :---: | :---: | :---: | :---: | :---: |
-| Ricostruzione 3D esperienze personali | **High** | ✅ | ❌ | ❌ | ❌ |
-| Integrazione AI per ambienti realistici | **High** | ✅ | ❌ | ❌ | ⚠️ |
-| Interazione con ricordi/persone | **High** | ✅ | ⚠️ | ❌ | ⚠️ |
-| Focus su legami affettivi | **Moderate** | ✅ | ❌ | ⚠️ | ✅ |
-| Abbonamento per esperienze extra | **High** | ✅ | ⚠️ | ❌ | ✅ |
+| Ricostruzione 3D da media personali | **Alta** | ✅ | ❌ | ❌ | ❌ |
+| Integrazione IA per ambienti 3D | **Alta** | ✅ | ❌ | ❌ | ⚠️ |
+| Interazione con persone/ricordi | **Alta** | ✅ | ⚠️ | ❌ | ⚠️ |
+| Focus su memoria e legami affettivi | **Media** | ✅ | ❌ | ⚠️ | ✅ |
+| Abbonamento per esperienze extra | **Alta** | ✅ | ⚠️ | ❌ | ✅ |
+| Compatibilità diversi visori | **Media** | ✅ | ⚠️ | ❌ | ✅ |
 
 ---
 
