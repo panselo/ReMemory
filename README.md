@@ -102,3 +102,54 @@ graph LR
     Link -.->|include| Ins2(Carica da App)
     Ins1 -.->|include| Rivivi((RIVIVI))
     Ins2 -.->|include| Rivivi
+
+---
+
+# Graph TD:
+    A[ReMemory Project] --> B[1.0 ANALISI E REQUISITI]
+    A --> C[2.0 SVILUPPO IA E ASSET]
+    A --> D[3.0 INTEGRAZIONE VR/AR]
+    A --> E[4.0 BUSINESS E LANCIO]
+
+    B --> B1[Definizione Requisiti Funzionali]
+    B --> B2[Analisi Vincoli Legali e Privacy]
+    B --> B3[User Case e Flussi Utente]
+
+    C --> C1[Training Modello IA Ricostruzione 3D]
+    C --> C2[Gestione Cloud Storage Media]
+    C --> C3[Generazione Ambienti Realistici]
+
+    D --> D1[Sviluppo Interfaccia App Mobile]
+    D --> D2[Configurazione Collegamento Visore]
+    D --> D3[Ottimizzazione Interazione 3D]
+
+    E --> E1[Integrazione Sistema Abbonamenti]
+    E --> E2[Catalogo Visori e Partnership]
+    E --> E3[Pubblicazione Store]
+
+---
+
+# Gantt:
+    title Cronoprogramma Sviluppo ReMemory
+    dateFormat  YYYY-MM-DD
+    axisFormat  W%W
+    
+    section Analisi
+    Analisi Requisiti e Legale      :active, a1, 2026-01-01, 10d
+    Design Diagrammi UML            : a2, after a1, 5d
+    
+    section Sviluppo IA
+    Training Modelli 3D             : b1, 2026-01-15, 20d
+    Integrazione Audio/Video        : b2, after b1, 10d
+    
+    section VR & App
+    Sviluppo App Mobile             : c1, 2026-02-01, 25d
+    Test Collegamento Visore        : c2, after c1, 10d
+    
+    section Business
+    Setup Piani Premium             : d1, 2026-02-15, 7d
+    Lancio e Marketing              : d2, after c2, 7d
+
+---
+
+# Implementazione: https://re-memory-lane.lovable.app
