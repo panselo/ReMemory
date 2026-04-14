@@ -40,9 +40,6 @@ Puoi visualizzare il prototipo interattivo dell'applicazione al seguente link:
 
 ---
 
-# Requisiti – ReMemory
-[![Requisiti](https://img.shields.io/badge/Requisiti-limegreen?style=for-the-badge&logo=googledocs&logoColor=white)](https://docs.google.com/document/d/1xWKr9zPorj-nm3MxhnGaykbhv_UhUK95PsWAqKO3TZ0/edit?usp=sharing)
-
 ## <span style="background:#E6F1FB;color:#0C447C;padding:3px 10px;border-radius:6px;font-size:13px;font-weight:500;">Funzionali</span> &nbsp; 
 > Funzionalità offerte agli utenti
 
