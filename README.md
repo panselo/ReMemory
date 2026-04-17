@@ -72,6 +72,7 @@ Puoi visualizzare il prototipo interattivo dell'applicazione al seguente link:
 ---
 
 # WBS:
+    ```
     A[ReMemory Project] --> B[1.0 ANALISI E REQUISITI]
     A --> C[2.0 SVILUPPO IA E ASSET]
     A --> D[3.0 INTEGRAZIONE VR/AR]
@@ -92,6 +93,7 @@ Puoi visualizzare il prototipo interattivo dell'applicazione al seguente link:
     E --> E1[Integrazione Sistema Abbonamenti]
     E --> E2[Catalogo Visori e Partnership]
     E --> E3[Pubblicazione Store]
+    ```
 
 ---
 
