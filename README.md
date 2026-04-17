@@ -71,52 +71,50 @@ Puoi visualizzare il prototipo interattivo dell'applicazione al seguente link:
 
 ---
 
-# WBS:
-```mermaid
-    A[ReMemory Project] --> B[1.0 ANALISI E REQUISITI]
-    A --> C[2.0 SVILUPPO IA E ASSET]
-    A --> D[3.0 INTEGRAZIONE VR/AR]
-    A --> E[4.0 BUSINESS E LANCIO]
+# graph TD
+    A[ReMemory Project] --> B[1.0 Analisi e Requisiti]
+    A --> C[2.0 Sviluppo IA e Asset]
+    A --> D[3.0 Integrazione VR/AR]
+    A --> E[4.0 Business e Lancio]
 
     B --> B1[Definizione Requisiti Funzionali]
     B --> B2[Analisi Vincoli Legali e Privacy]
-    B --> B3[User Case e Flussi Utente]
+    B --> B3[Use Case e Flussi Utente]
 
-    C --> C1[Training Modello IA Ricostruzione 3D]
-    C --> C2[Gestione Cloud Storage Media]
+    C --> C1[Training Modello IA 3D]
+    C --> C2[Gestione Cloud Storage]
     C --> C3[Generazione Ambienti Realistici]
 
-    D --> D1[Sviluppo Interfaccia App Mobile]
-    D --> D2[Configurazione Collegamento Visore]
+    D --> D1[Sviluppo App Mobile]
+    D --> D2[Collegamento Visore VR]
     D --> D3[Ottimizzazione Interazione 3D]
 
-    E --> E1[Integrazione Sistema Abbonamenti]
+    E --> E1[Sistema Abbonamenti]
     E --> E2[Catalogo Visori e Partnership]
-    E --> E3[Pubblicazione Store]
-    ```
+    E --> E3[Pubblicazione su Store]
 
 ---
 
-# gantt:
+# gantt
     title Cronoprogramma Sviluppo ReMemory
     dateFormat  YYYY-MM-DD
-    axisFormat  W%W
-    
+    axisFormat  %d-%m
+
     section Analisi
     Analisi Requisiti e Legale      :active, a1, 2026-01-01, 10d
-    Design Diagrammi UML            : a2, after a1, 5d
-    
+    Design Diagrammi UML            :a2, after a1, 5d
+
     section Sviluppo IA
-    Training Modelli 3D             : b1, 2026-01-15, 20d
-    Integrazione Audio/Video        : b2, after b1, 10d
-    
-    section VR & App
-    Sviluppo App Mobile             : c1, 2026-02-01, 25d
-    Test Collegamento Visore        : c2, after c1, 10d
-    
+    Training Modelli 3D             :b1, 2026-01-15, 20d
+    Integrazione Audio Video        :b2, after b1, 10d
+
+    section VR e App
+    Sviluppo App Mobile             :c1, 2026-02-01, 25d
+    Test Collegamento Visore        :c2, after c1, 10d
+
     section Business
-    Setup Piani Premium             : d1, 2026-02-15, 7d
-    Lancio e Marketing              : d2, after c2, 7d
+    Setup Piani Premium             :d1, 2026-02-15, 7d
+    Lancio e Marketing              :d2, after c2, 7d
 
 ---
 
