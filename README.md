@@ -72,7 +72,7 @@ Puoi visualizzare il prototipo interattivo dell'applicazione al seguente link:
 ---
 
 # WBS:
-    ```
+```mermaid
     A[ReMemory Project] --> B[1.0 ANALISI E REQUISITI]
     A --> C[2.0 SVILUPPO IA E ASSET]
     A --> D[3.0 INTEGRAZIONE VR/AR]
