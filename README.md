@@ -78,7 +78,8 @@ Puoi visualizzare il prototipo interattivo dell'applicazione al seguente link:
 ---
 
 # gantt
-    <img width="1592" height="267" alt="image" src="https://github.com/user-attachments/assets/436ebbdd-bd4f-4394-8077-0c30f95dd5a3" />
+<img width="1591" height="293" alt="image" src="https://github.com/user-attachments/assets/10352c49-baab-4922-af94-ed456801db3b" />
+
 
 ---
 
